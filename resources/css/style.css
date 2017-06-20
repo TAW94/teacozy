@@ -107,8 +107,6 @@ nav span {
 }
 
 /*LOCATIONS SECTION ---------------------*/
-/*sadly I can't get the three boxes aligned properly. The h2 "locations" seems to be too high but I don't know why.
-Help and an explanation is greatly appreciated*/
 
 #locations {
   height: 500px;
@@ -116,9 +114,12 @@ Help and an explanation is greatly appreciated*/
   background-image: url("../images/img-locations-background.jpg");
 }
 
+/*The padding-bottom was the only way I could get the boxes to float in the middle. I suppose this is not the best way to do it.
+Another way with explanation is greatly appreciated.*/
 .container.boxes{
   width: 1100px;
   margin: auto;
+  padding-bottom: 150px;
 }
 
 .box {
@@ -130,6 +131,7 @@ Help and an explanation is greatly appreciated*/
   flex-basis: 280px;
   opacity: 1;
   background-color: black;
+
 }
 
 /*FOOTER SECTION*/
